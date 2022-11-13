@@ -7,6 +7,13 @@
   padding: 24px 24px 0px 24px;
 }
 
+.row {
+    width: 100%; /* This part make the border or the entire box automatically ajustable so it can feed in all screens*/
+    max-width: 600px; /* This part of the code basically put the margin of the items and the border*/
+    margin: 0 auto;  /* This part of the code basically will center the items of the page */
+    
+}
+
 .title {
     border: 4px solid lightgray;
     width: 100%;
@@ -21,7 +28,7 @@
   margin-bottom: 24px;
 }
 
-.box-wrapper {
+.box-wrapper { /* This box wrapper basically put the 6 boxes in to 3 over 3 */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
